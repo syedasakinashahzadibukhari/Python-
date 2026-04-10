@@ -1,0 +1,13 @@
+Ever wonder when C and Java exist and why there's a need to generate a Python?
+ Python was created by Guido van Rossum. He was a citizen of the Netherlands.
+ He had a degree in mathematics and computer science and he worked in a company,
+ so he was called a Dutch programmer. He worked on C and ABC language but he was
+ so much worried about their complexity so he decided to make an easy language 
+ to understand and write code in. In his Christmas holidays he worked on the
+ Python and it was the smallest ecosystem because it was only one person's hobby.
+ Then he released the first version in February and now Python has many versions
+ and Python has improved very well so Python can communicate with better operating systems.
+ When C and Java existed, why did we need to generate Python? Python is much easier to write the code.
+ Why is the Python name Python?
+ Because Guido van Rossum was used to watch a funny comedy show named Monty Python's and so he wanted to have a unique and interesting name; that's why he chose Python.
+
