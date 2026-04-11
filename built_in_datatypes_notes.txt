@@ -1,0 +1,13 @@
+💡 Small Tip (Very Important)
+List = changeable
+Tuple = fixed
+Set = no duplicates
+Dictionary = key-value
+
+📊 Built-in Data Types in Python
+
+    Category	       Data Type	          Description	                    Example
+Sequence Type	        list	       Ordered, mutable (can change)	       [1, 2, 3]
+Sequence Type	        tuple	       Ordered, immutable (cannot change)	   (1, 2, 3)
+Mapping Type	        dict	       Key-value pairs	                    {"a": 1, "b": 2}
+Set Type	            set            Unordered, no duplicates	               {1, 2, 3}

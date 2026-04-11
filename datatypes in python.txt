@@ -1,0 +1,13 @@
+👉 Python data types are divided into two main categories:
+
+1. Basic (Primitive) Data Types
+
+Numeric Types: int, float, complex
+Text Type: str
+Boolean Type: bool
+None Type: NoneType
+
+2. Built-in (Collection) Data Types
+Sequence Type: list, tuple
+Mapping Type: dict
+Set Type: set
