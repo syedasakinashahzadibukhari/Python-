@@ -42,7 +42,7 @@ print(type(x))   # <class 'int'>
 x = int(3.7)    # 3
 y = int("10")   # 10
 
-''''''
+'''
 You cannot convert invalid strings:
 int("abc")  # ❌ Error
-''''''
+'''
