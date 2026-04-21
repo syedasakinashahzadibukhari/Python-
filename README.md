@@ -24,4 +24,3 @@ Share your own notes
 
 💡 Goal:
 To build a simple, well-structured, and community-driven Python course that helps anyone start coding from scratch.
-ggg
