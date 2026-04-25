@@ -5,7 +5,7 @@ print(type(x))
 '''<class 'float'>'''
 '''
 ==============================
-FLOAT IN PYTHON (COMMENT NOTES)
+FLOAT IN PYTHON 
 =============================='''
 
 ''' DEFINITION'''
@@ -41,29 +41,33 @@ print(a / b)   # Division → 2.75
 print(a // b)  # Floor Division → 2.0
 print(a % b)   # Modulus → 1.5
 print(a ** b)  # Power → 30.25
+'''
+Division → “How many times?
+Modulus → “What is left?
+'''
 
 
 ''' IMPORTANT FUNCTIONS'''
 
-print(round(3.456, 2))   # 3.46
-print(abs(-3.5))         # 3.5
-print(max(2.3, 5.6))     # 5.6
-print(min(2.3, 5.6))     # 2.3
-print(pow(2.5, 2))       # 6.25
+print(round(3.456, 2))   # 3.46 return the round off value the 2 means how many decimal places we want to keep 
+print(abs(-3.5))         # 3.5 return the absolute value always return positive 
+print(max(2.3, 5.6))     # 5.6 return the maximum value
+print(min(2.3, 5.6))     # 2.3 return the minimum value
+print(pow(2.5, 2))       # 6.25 multiply the number by it self n time here  2 times will be 2.5 * 2.5
 
 
 ''' FLOAT PRECISION ISSUE'''
 ''' Floats are not always exact'''
 
 print(0.1 + 0.2)        # 0.30000000000000004
-print(round(0.1+0.2,2)) # 0.3
+print(round(0.1+0.2,2)) # 0.3 here python removes the unnesserary 0 from 0.30
 
 
 ''' INFINITY VALUES'''
 
-x = float("inf")
+x = float("inf") #float("inf") = convert text → infinity number
 y = float("-inf")
-
+print ("here seee")
 print(x)        # inf
 print(y)        # -inf
 
@@ -81,15 +85,16 @@ print(float("inf") - float("inf"))  # nan (undefined)
 
 ''' NAN (NOT A NUMBER)'''
 
-z = float("nan")
-print(z)   # nan
+z = float("nan") # i sused to fill empty spaces in the data set so taht machine can ignore them 
+print(z)   # nan stands for not a number
 
 
 ''' FORMAT FLOAT'''
 
-x = 3.14159
-print(f"{x:.2f}")   # 3.14
-
+x = 3.14159 
+print(f"{x:.2f}")   # 3.14 2f used to write tbe decimal places
+#It does NOT change the number
+#Only changes how it is displayed (printing/output)
 
 ''' MIXING INT AND FLOAT'''
 
@@ -102,7 +107,7 @@ OPERATIONS ON INTEGERS vs FLOAT
 
 ''' IMPORTANT RULE '''
 ''' ALL THESE OPERATIONS WORK ON BOTH INT AND FLOAT'''
-
+'''
 Addition (+)
 Subtraction (-)
 Multiplication (*)
@@ -111,7 +116,8 @@ Floor Division (//)
 Modulus (%)
 Power (**)
 
-''' EXAMPLES WITH INTEGERS'''
+ EXAMPLES WITH INTEGERS
+ '''
 
 a = 5
 b = 2
@@ -123,19 +129,20 @@ print(a / b)   # 2.5   (NOTE: always float)
 print(a // b)  # 2
 print(a % b)   # 1
 print(a ** b)  # 25
+'''
 
+ IMPORTANT DIFFERENCE 
 
-''' IMPORTANT DIFFERENCE'''
-
-''' Division (/) ALWAYS gives FLOAT'''
+ Division (/) ALWAYS gives FLOAT
 5 / 2 → 2.5
 
-''' Floor division (//) gives INT if both are int'''
+ Floor division (//) gives INT if both are int
 5 // 2 → 2
-'''
+
 
 ==============================
 END
 ==============================
+
 
 '''
